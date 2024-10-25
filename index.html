@@ -4,7 +4,13 @@
 <title>v86</title>
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta name="description" content="Run KolibriOS, Linux or Windows 98 in your browser">
-
+<script>
+window.onbeforeunload = function (event) {
+        const confirmationMessage = 'Leave Site?';
+        (event || window.event).returnValue = confirmationMessage;
+        return confirmationMessage;
+      };
+</script>
 <script src="build/v86_all-v2.js"></script>
 <link rel="stylesheet" href="v86.css">
 
