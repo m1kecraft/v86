@@ -19,7 +19,7 @@ window.onbeforeunload = function (event) {
     <div id="boot_options">
         <div id="filter">
             Family:
-            <label><input id="filter_linux" type="checkbox"> Linux</label>
+            <label><input id="filter_linux" type="checkbox"/> Linux</label>
             <label><input id="filter_bsd" type="checkbox"> BSD</label>
             <label title="Microsoft Windows"><input id="filter_windows" type="checkbox"> Windows</label>
             <label><input id="filter_unix" type="checkbox"> Unix-like</label>
