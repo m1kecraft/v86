@@ -20,32 +20,32 @@ window.onbeforeunload = function (event) {
         <div id="filter">
             Family:
             <label><input id="filter_linux" type="checkbox"/> Linux</label>
-            <label><input id="filter_bsd" type="checkbox"> BSD</label>
-            <label title="Microsoft Windows"><input id="filter_windows" type="checkbox"> Windows</label>
-            <label><input id="filter_unix" type="checkbox"> Unix-like</label>
-            <label><input id="filter_dos" type="checkbox"> DOS</label>
-            <label><input id="filter_custom" type="checkbox"> Custom</label>
+            <label><input id="filter_bsd" type="checkbox"/> BSD</label>
+            <label title="Microsoft Windows"><input id="filter_windows" type="checkbox"/> Windows</label>
+            <label><input id="filter_unix" type="checkbox"/> Unix-like</label>
+            <label><input id="filter_dos" type="checkbox"/> DOS</label>
+            <label><input id="filter_custom" type="checkbox"/> Custom</label>
             <!--<label><input type="checkbox"> Hobby OS</label>-->
             UI:
-            <label title="Graphical desktop"><input id="filter_graphical" type="checkbox"> Graphical</label>
-            <label title="Text-based or serial console only"><input id="filter_text" type="checkbox"> Text</label>
+            <label title="Graphical desktop"><input id="filter_graphical" type="checkbox"/> Graphical</label>
+            <label title="Text-based or serial console only"><input id="filter_text" type="checkbox"/> Text</label>
             Medium:
-            <label title="Boots from floppy disk"><input id="filter_floppy" type="checkbox"> Floppy</label>
-            <label title="Boots from CD-ROM"><input id="filter_cd" type="checkbox"> CD</label>
-            <label title="Boots from hard disk"><input id="filter_hd" type="checkbox"> HD</label>
+            <label title="Boots from floppy disk"><input id="filter_floppy" type="checkbox"/> Floppy</label>
+            <label title="Boots from CD-ROM"><input id="filter_cd" type="checkbox"/> CD</label>
+            <label title="Boots from hard disk"><input id="filter_hd" type="checkbox"/> HD</label>
             Size:
-            <label title="Fits it bootsector"><input id="filter_bootsector" type="checkbox"> 512 B</label>
-            <label><input id="filter_lt5mb" type="checkbox"> &lt;5 MB</label>
-            <label><input id="filter_gt5mb" type="checkbox"> &gt;5 MB</label>
+            <label title="Fits it bootsector"><input id="filter_bootsector" type="checkbox"/> 512 B</label>
+            <label><input id="filter_lt5mb" type="checkbox"/> &lt;5 MB</label>
+            <label><input id="filter_gt5mb" type="checkbox"/> &gt;5 MB</label>
             Status:
-            <label title="Most recent release is younger than 10 years"><input id="filter_modern" type="checkbox"> Modern</label>
-            <label title="No release in 10 years"><input id="filter_historic" type="checkbox"> Historic</label>
+            <label title="Most recent release is younger than 10 years"><input id="filter_modern" type="checkbox"/> Modern</label>
+            <label title="No release in 10 years"><input id="filter_historic" type="checkbox"/> Historic</label>
             License:
-            <label><input id="filter_opensource" type="checkbox"> Open-Source</label>
-            <label><input id="filter_proprietary" type="checkbox"> Proprietary</label>
+            <label><input id="filter_opensource" type="checkbox"/> Open-Source</label>
+            <label><input id="filter_proprietary" type="checkbox"/> Proprietary</label>
             Arch:
-            <label><input id="filter_16bit" type="checkbox"> 16-bit</label>
-            <label><input id="filter_32bit" type="checkbox"> 32-bit</label>
+            <label><input id="filter_16bit" type="checkbox"/> 16-bit</label>
+            <label><input id="filter_32bit" type="checkbox"/> 32-bit</label>
             <!--<label><input type="checkbox"> Microkernel</label>-->
             <!--<label title="Uses a saved memory dump to skip the boot process"><input type="checkbox"> skip boot process</label>-->
             <!--<label title="Supports networking (in v86)"><input type="checkbox"> networking</label>
@@ -53,16 +53,16 @@ window.onbeforeunload = function (event) {
             <label title="Supports the serial console (in v86)"><input type="checkbox"> serial</label>
             <label title="Supports filesharing using virtio-9p (in v86)"><input type="checkbox"> 9pfs</label>-->
             Lang:
-            <label title="Written in assembly language"><input id="filter_asm" type="checkbox"> ASM</label>
-            <label title="Written in C"><input id="filter_c" type="checkbox"> C</label>
-            <label title="Written in C++"><input id="filter_cpp" type="checkbox"> C++</label>
-            <label title="Written in other languages"><input id="filter_other_lang" type="checkbox"> Other</label>
+            <label title="Written in assembly language"><input id="filter_asm" type="checkbox"/> ASM</label>
+            <label title="Written in C"><input id="filter_c" type="checkbox"/> C</label>
+            <label title="Written in C++"><input id="filter_cpp" type="checkbox"/> C++</label>
+            <label title="Written in other languages"><input id="filter_other_lang" type="checkbox"/> Other</label>
             <!--<label><input type="checkbox"> contains: games</label>
             <label><input type="checkbox"> contains: demos</label>
             <label><input type="checkbox"> contains: compilers</label>
             <label><input type="checkbox"> contains: web browsers</label>-->
             <div style="text-align: right; float: right"><a href="#setup">Skip to custom settings</a></div>
-            <br style="clear: both">
+            <br style="clear: both"/>
         </div>
         <hr>
 
@@ -128,87 +128,87 @@ window.onbeforeunload = function (event) {
             <tr>
                 <td width="350"><label for="cdrom_image">CD image</label></td>
                 <td>
-                    <input type="file" id="cdrom_image">
+                    <input type="file" id="cdrom_image"/>
                 </td>
             </tr>
 
             <tr>
                 <td><label for="floppy_image">Floppy disk image</label></td>
-                <td> <input type="file" id="floppy_image"><br></td>
+                <td> <input type="file" id="floppy_image"/><br/></td>
             </tr>
 
             <tr>
                 <td><label for="hda_image">Hard disk image</label></td>
-                <td><input type="file" id="hda_image"><br></td>
+                <td><input type="file" id="hda_image"/><br/></td>
             </tr>
 
             <!--
             <tr>
                 <td><label for="multiboot_image">Multiboot kernel image (experimental)</td>
-                <td><input type="file" id="multiboot_image"><br></td>
+                <td><input type="file" id="multiboot_image"><br/></td>
             </tr>
             -->
 
             <tr>
                 <td><label for="bzimage">Kernel image (bzimage)</label></td>
-                <td><input type="file" id="bzimage"><br></td>
+                <td><input type="file" id="bzimage"/><br/></td>
             </tr>
             <tr>
                 <td><label for="initrd">initrd</label></td>
-                <td><input type="file" id="initrd"><br></td>
+                <td><input type="file" id="initrd"/><br/></td>
             </tr>
 
             <tr>
                 <td><label for="bios">BIOS</label></td>
-                <td> <input type="file" id="bios"><br></td>
+                <td> <input type="file" id="bios"/><br/></td>
             </tr>
 
             <tr>
-                <td colspan="2"><small>Disk images are not uploaded to the server</small><hr></td>
+                <td colspan="2"><small>Disk images are not uploaded to the server</small><hr/></td>
             </tr>
 
             <tr>
                 <td><label for="memory_size">Memory size</label></td>
                 <td>
-                    <input id="memory_size" type="number" value="128" min="16" max="2048" step="16"> MB<br>
+                    <input id="memory_size" type="number" value="128" min="16" max="2048" step="16"/> MB<br/>
                 </td>
             </tr>
 
             <tr>
                 <td><label for="vga_memory_size">Video Memory size</label></td>
                 <td>
-                    <input id="vga_memory_size" type="number" value="8" min="1" max="128" step="1"> MB<br>
+                    <input id="vga_memory_size" type="number" value="8" min="1" max="128" step="1"/> MB<br/>
                 </td>
             </tr>
 
             <tr>
-                <td><label for="relay_url">Networking proxy</label><br>
+                <td><label for="relay_url">Networking proxy</label><br/>
                     Presets: <a id="network_none">none</a>, <a id="network_relay">public relay</a>, <a id="network_wisp">wisp</a>, <a id="network_fetch">fetch</a></td>
                 <td>
-                    <input id="relay_url" type="text" value="wss://relay.widgetry.org/">
+                    <input id="relay_url" type="text" value="wss://relay.widgetry.org/"/>
                 </td>
             </tr>
 
             <tr>
-                <td colspan="2"><hr></td>
+                <td colspan="2"><hr/></td>
             </tr>
 
             <tr>
                 <td><label for="disable_audio">Disable audio</label></td>
                 <td>
-                    <input id="disable_audio" type="checkbox"><br>
+                    <input id="disable_audio" type="checkbox"/><br/>
                 </td>
             </tr>
 
             <tr>
                 <td><label for="acpi">Enable ACPI (experimental)</label></td>
                 <td>
-                    <input id="acpi" type="checkbox"><br>
+                    <input id="acpi" type="checkbox"/><br/>
                 </td>
             </tr>
 
             <tr>
-                <td colspan="2"><hr></td>
+                <td colspan="2"><hr/></td>
             </tr>
 
             <tr>
@@ -227,38 +227,38 @@ window.onbeforeunload = function (event) {
             </tr>
         </table>
 
-        <br>
+        <br/>
         <button id="start_emulation">Start Emulation</button>
     </div>
 
     <div id="runtime_options" style="display: none">
-        <input type="button" value="Pause" id="run">
-        <input type="button" value="Reset" id="reset">
-        <input type="button" value="Exit" id="exit">
-        <input type="button" value="Send Ctrl-Alt-Del" id="ctrlaltdel">
-        <input type="button" value="Send Alt-Tab" id="alttab">
-        <input type="button" value="Get floppy image" id="get_fda_image">
-        <input type="button" value="Get second floppy image" id="get_fdb_image">
-        <input type="button" value="Get hard disk image" id="get_hda_image">
-        <input type="button" value="Get second hard disk image" id="get_hdb_image">
-        <input type="button" value="Get CD-ROM image" id="get_cdrom_image">
-        <input type="button" value="Insert floppy image" id="change_fda_image">
-        <input type="button" value="Save State" id="save_state">
-        <input type="button" value="Load State" id="load_state"> <input type="file" style="display: none" id="load_state_input">
-        <input type="button" value="Memory Dump" id="memory_dump">
-        <input type="button" value="Capture network traffic" id="capture_network_traffic" title="In wireshark: file -> import from hex -> tick direction indication, timestamp %s.%f">
-        <input type="button" value="Disable mouse" id="toggle_mouse">
-        <input type="button" value="Lock mouse" id="lock_mouse">
-        <input type="button" value="Go fullscreen" id="fullscreen">
-        <input type="button" value="Take screenshot" id="take_screenshot">
-        <input type="button" value="Mute" id="mute">
+        <input type="button" value="Pause" id="run"/>
+        <input type="button" value="Reset" id="reset"/>
+        <input type="button" value="Exit" id="exit"/>
+        <input type="button" value="Send Ctrl-Alt-Del" id="ctrlaltdel"/>
+        <input type="button" value="Send Alt-Tab" id="alttab"/>
+        <input type="button" value="Get floppy image" id="get_fda_image"/>
+        <input type="button" value="Get second floppy image" id="get_fdb_image"/>
+        <input type="button" value="Get hard disk image" id="get_hda_image"/>
+        <input type="button" value="Get second hard disk image" id="get_hdb_image"/>
+        <input type="button" value="Get CD-ROM image" id="get_cdrom_image"/>
+        <input type="button" value="Insert floppy image" id="change_fda_image"/>
+        <input type="button" value="Save State" id="save_state"/>
+        <input type="button" value="Load State" id="load_state"/> <input type="file" style="display: none" id="load_state_input"/>
+        <input type="button" value="Memory Dump" id="memory_dump"/>
+        <input type="button" value="Capture network traffic" id="capture_network_traffic" title="In wireshark: file -> import from hex -> tick direction indication, timestamp %s.%f"/>
+        <input type="button" value="Disable mouse" id="toggle_mouse"/>
+        <input type="button" value="Lock mouse" id="lock_mouse"/>
+        <input type="button" value="Go fullscreen" id="fullscreen"/>
+        <input type="button" value="Take screenshot" id="take_screenshot"/>
+        <input type="button" value="Mute" id="mute"/>
 
         <label>
             Scale:
-            <input type="number" min="0.25" step="0.25" value="1.0" id="scale" style="width: 50px">
+            <input type="number" min="0.25" step="0.25" value="1.0" id="scale" style="width: 50px"/>
         </label>
 
-        <br><br>
+        <br/><br/>
     </div>
     <pre style="display: none" id="loading"></pre>
 </div>
@@ -273,55 +273,55 @@ window.onbeforeunload = function (event) {
 
 
 <div id="runtime_infos" style="display: none">
-    Running: <span id="running_time">0s</span> <br>
-    Speed: <span id="speed">0</span> mIPS<br>
-    Avg speed: <span id="avg_speed">0</span> mIPS<br>
-    <br>
+    Running: <span id="running_time">0s</span> <br/>
+    Speed: <span id="speed">0</span> mIPS<br/>
+    Avg speed: <span id="avg_speed">0</span> mIPS<br/>
+    <br/>
     <div id="info_storage" style="display: none">
-        <b>IDE device<span id="ide_type"></span></b><br>
-        Sectors read: <span id="info_storage_sectors_read">0</span><br>
-        Bytes read: <span id="info_storage_bytes_read">0</span><br>
-        Sectors written: <span id="info_storage_sectors_written">0</span><br>
-        Bytes written: <span id="info_storage_bytes_written">0</span><br>
-        Status: <span id="info_storage_status"></span><br>
-        <br>
+        <b>IDE device<span id="ide_type"></span></b><br/>
+        Sectors read: <span id="info_storage_sectors_read">0</span><br/>
+        Bytes read: <span id="info_storage_bytes_read">0</span><br/>
+        Sectors written: <span id="info_storage_sectors_written">0</span><br/>
+        Bytes written: <span id="info_storage_bytes_written">0</span><br/>
+        Status: <span id="info_storage_status"></span><br/>
+        <br/>
     </div>
     <div id="info_filesystem" style="display: none">
-        <b>9p Filesystem</b><br>
-        Bytes read: <span id="info_filesystem_bytes_read">0</span><br>
-        Bytes written: <span id="info_filesystem_bytes_written">0</span><br>
+        <b>9p Filesystem</b><br/>
+        Bytes read: <span id="info_filesystem_bytes_read">0</span><br/>
+        Bytes written: <span id="info_filesystem_bytes_written">0</span><br/>
         <div style="white-space: nowrap; overflow-x: hidden">Last file: <span id="info_filesystem_last_file"></span></div>
-        Status: <span id="info_filesystem_status"></span><br>
-        <br>
+        Status: <span id="info_filesystem_status"></span><br/>
+        <br/>
     </div>
     <div id="info_network" style="display: none">
-        <b>Network</b><br>
-        Bytes received: <span id="info_network_bytes_received">0</span><br>
-        Bytes transmitted: <span id="info_network_bytes_transmitted">0</span><br>
-        <br>
+        <b>Network</b><br/>
+        Bytes received: <span id="info_network_bytes_received">0</span><br/>
+        Bytes transmitted: <span id="info_network_bytes_transmitted">0</span><br/>
+        <br/>
     </div>
-    <b>VGA</b><br>
-    Mode: <span id="info_vga_mode"></span><br>
-    Resolution: <span id="info_res">-</span><br>
-    <br>
-    Mouse: <span id="info_mouse_enabled">No</span><br>
+    <b>VGA</b><br/>
+    Mode: <span id="info_vga_mode"></span><br/>
+    Resolution: <span id="info_res">-</span><br/>
+    <br/>
+    Mouse: <span id="info_mouse_enabled">No</span><br/>
 
-    <div id="description" style="display: none"><br></div>
+    <div id="description" style="display: none"><br/></div>
 </div>
 
 <div id="filesystem_panel" style="display: none">
     <label>
-        Send files to emulator<br>
-        <input type="file" id="filesystem_send_file" multiple>
+        Send files to emulator<br/>
+        <input type="file" id="filesystem_send_file" multiple/>
     </label>
-    <br><br>
+    <br/><br/>
     <label>
-        Get file from emulator<br>
-        <input type="text" id="filesystem_get_file" placeholder="Absolute path">
+        Get file from emulator<br/>
+        <input type="text" id="filesystem_get_file" placeholder="Absolute path"/>
     </label>
 </div>
 
-<br style="clear: both"><br>
+<br style="clear: both"><br/>
 
 <div id="terminal"></div>
 
