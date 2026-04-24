@@ -1,9 +1,7 @@
 
-<?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/css" href="v86.css" ?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<svg height="100%" width="100%" x="0" y="0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Dashboard</title>
-  <foreignObject x="0" y="0" width="1280" height="720"><div xmlns="http://www.w3.org/1999/xhtml">
+  <foreignObject x="0" y="0" width="1280" height="720">    <html xmlns="http://www.w3.org/1999/xhtml">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
@@ -338,5 +336,6 @@ window.onbeforeunload = function (event) {
 <a href="https://github.com/copy/v86">Project on Github</a>
 &mdash;
 <a href="https://github.com/copy/v86#compatibility">Compatibility</a>
+</html>
 </foreignObject>
 </svg>
