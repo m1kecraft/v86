@@ -13,7 +13,7 @@ window.onbeforeunload = function (event) {
       };
 </script>
 <script src="build/v86_all-v2.js"></script>
-<link rel="stylesheet" href="v86.css">
+<link rel="stylesheet" href="v86.css"/>
 
 <div>
     <div id="boot_options">
