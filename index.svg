@@ -312,7 +312,7 @@ window.onbeforeunload = function (event) {
 <div id="filesystem_panel" style="display: none">
     <label>
         Send files to emulator<br/>
-        <input type="file" id="filesystem_send_file" multiple/>
+        <input type="file" id="filesystem_send_file" multiple="true"/>
     </label>
     <br/><br/>
     <label>
