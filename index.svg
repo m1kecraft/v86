@@ -64,7 +64,7 @@ window.onbeforeunload = function (event) {
             <div style="text-align: right; float: right"><a href="#setup">Skip to custom settings</a></div>
             <br style="clear: both"/>
         </div>
-        <hr>
+        <hr/>
 
         <table id="oses">
             <thead>
