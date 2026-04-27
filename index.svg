@@ -325,7 +325,7 @@ window.onbeforeunload = function (event) {
 
 <div id="terminal"></div>
 
-<br style="clear: both">
+<br style="clear: both"/>
 <code>Version: <a href="https://github.com/copy/v86/commits/98e7110c2">98e7110c2</a> (Feb 16, 2021 12:02)</code>
 
 <hr/>
