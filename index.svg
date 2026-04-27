@@ -321,7 +321,7 @@ window.onbeforeunload = function (event) {
     </label>
 </div>
 
-<br style="clear: both"><br/>
+<br style="clear: both"/><br/>
 
 <div id="terminal"></div>
 
