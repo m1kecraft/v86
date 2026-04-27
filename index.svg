@@ -330,11 +330,11 @@ window.onbeforeunload = function (event) {
 
 <hr>
 <a href="debug.html">Enable debug</a>
-&mdash;
+&#8212;
 <a href="https://github.com/copy/v86/blob/master/Readme.md">Readme</a>
-&mdash;
+&#8212;
 <a href="https://github.com/copy/v86">Project on Github</a>
-&mdash;
+&#8212;
 <a href="https://github.com/copy/v86#compatibility">Compatibility</a>
 </html>
 </foreignObject>
